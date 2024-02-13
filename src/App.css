@@ -1,0 +1,45 @@
+.home-page, .result-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: pink;
+  }
+ 
+  
+  input, button {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  .messages p {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .svimage{
+    
+    width: 250px;
+    height: 300px;
+  }
+
+  .home-page, .result-page {
+    height: 100vh;
+    background-image: url('./bc.gif');
+    background-size: cover;
+    background-position: center;
+  }
