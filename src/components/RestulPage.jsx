@@ -67,7 +67,7 @@ function ResultPage() {
   }, [showMessage, displayedMessages.length, messages]);
   
 
-  const shareLink = `https://wa.me/?text=¡Mira este mensaje de San Valentín para ti! https://carloscallejasaez.github.io/san-valentin/result/${encodeURIComponent(name)}`;
+  const shareLink = `https://wa.me/?text=¡Mira este mensaje de San Valentín para ti! https://carloscallejasanvalentin.netlify.app/result/${encodeURIComponent(name)}`;
 
   const handleButtonClick = () => {
     setShowMessage(true);

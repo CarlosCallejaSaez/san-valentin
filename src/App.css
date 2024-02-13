@@ -39,7 +39,7 @@
 
   .home-page, .result-page {
     height: 100vh;
-    background-image: url('./bc.gif');
+    background-image: url('./assets/bc.gif');
     background-size: cover;
     background-position: center;
   }
