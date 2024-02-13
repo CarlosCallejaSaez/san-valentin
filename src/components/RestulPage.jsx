@@ -80,7 +80,7 @@ function ResultPage() {
     <div className="result-page" style={{ height: '100vh', color: 'white', padding: '20px', overflow: 'auto' }}>
       <h2>Para: {name} 🥰😊</h2>
       {!showMessage && <button onClick={handleButtonClick}>Hazme click</button>}
-      <audio ref={audioRef} src="../assets/love.mp3" loop>
+      <audio ref={audioRef} src="https://cdn.pixabay.com/download/audio/2022/04/25/audio_629d834db7.mp3?filename=wedding-love-story-110055.mp3" loop>
         Tu navegador no soporta el elemento de audio.
       </audio>
       {showMessage && (
